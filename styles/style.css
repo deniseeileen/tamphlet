@@ -1,0 +1,56 @@
+body {
+    font-family: "Avenir Medium", sans-serif;
+    color: #6d6d6d;
+    background-color: rgba(252,204,173,0.5);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Montserrat Semibold";
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+header nav ul > li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.fas fa-envelope { 
+    font-color: #fbea70;
+}
+
+.fas fa-share {
+    font-color: #d4e5a3;
+}
+
+.fab fa-kickstarter {
+    font-color: #88cfc1;
+}
+
+.vision {
+    background-color: #ffffff;
+}
