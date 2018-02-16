@@ -1,11 +1,21 @@
+@font-face {
+  font-family: 'Avenir Medium';
+  src: url('fonts/Avenir-Medium.ttf')  format('truetype');
+}
+
 body {
-    font-family: "Avenir Medium", sans-serif;
+    font-family: 'Avenir Medium', sans-serif;
     color: #6d6d6d;
     background-color: rgba(252,204,173,0.5);
 }
 
+section, footer, nav {
+    padding: 0 60px;
+}
+
 h1, h2, h3, h4, h5 {
-    font-family: "Montserrat Semibold";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 h1 {
@@ -33,13 +43,24 @@ p {
     font-size: 14px;
 }
 
-header nav ul > li {
+ul {
+  padding: 0;
+}
+
+ul > li {
     list-style-type: none;
     display: inline-block;
+}
+
+header nav ul > li {
     font-size: 12px;
 }
 
-.fas fa-envelope { 
+.involvement ul.container i {
+  font-size: 45px;
+}
+
+.fas fa-envelope {
     font-color: #fbea70;
 }
 
@@ -51,6 +72,6 @@ header nav ul > li {
     font-color: #88cfc1;
 }
 
-.vision {
+.vision, .involvement {
     background-color: #ffffff;
 }
